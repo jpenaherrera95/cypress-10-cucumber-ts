@@ -1,0 +1,25 @@
+{
+  "name": "cypress-10-cucumber-ts",
+  "version": "1.0.0",
+  "description": "Testing for Cypress 10 version",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jpenaherrera95/cypress-10-cucumber-ts.git"
+  },
+  "author": "Jose Penaherrera",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jpenaherrera95/cypress-10-cucumber-ts/issues"
+  },
+  "homepage": "https://github.com/jpenaherrera95/cypress-10-cucumber-ts#readme",
+  "devDependencies": {
+    "cypress": "^13.5.1"
+  }
+}
