@@ -4,7 +4,7 @@
   "description": "Testing for Cypress 10 version",
   "main": "index.js",
   "scripts": {
-    "open": "cypress open"
+    "open": "cypress open --env environmentName=qa"
   },
   "engines": {
     "node": ">=16.0.0"
@@ -20,7 +20,8 @@
   },
   "homepage": "https://github.com/jpenaherrera95/cypress-10-cucumber-ts#readme",
   "devDependencies": {
-    "cypress": "^13.5.1"
+    "cypress": "^13.5.1",
+    "typescript": "^5.2.2"
   },
   "dependencies": {
     "@badeball/cypress-cucumber-preprocessor": "^19.1.1",
