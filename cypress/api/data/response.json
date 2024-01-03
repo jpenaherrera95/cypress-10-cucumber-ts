@@ -1,0 +1,8 @@
+{
+    "sourceCurrency": "USD", //type string
+    "sourceValue": 1.0, //type number
+    "targetCurrency": "EUR", //type string
+    "targetValue": 0.91, //type number
+    "effectiveStartDate": "01/03/2024",
+    "exchangeRate": "0.905995"
+}
