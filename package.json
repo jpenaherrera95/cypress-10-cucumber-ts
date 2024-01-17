@@ -4,7 +4,8 @@
   "description": "Testing for Cypress 10 version",
   "main": "index.js",
   "scripts": {
-    "open": "cypress open --env environmentName=qa"
+    "open": "cypress open --env environmentName=qa",
+    "headless": "cypress run -b chrome -s cypress/e2e/features/*.feature"
   },
   "engines": {
     "node": ">=16.0.0"
@@ -21,13 +22,11 @@
   "homepage": "https://github.com/jpenaherrera95/cypress-10-cucumber-ts#readme",
   "devDependencies": {
     "cypress": "^13.5.1",
+    "multiple-cucumber-html-reporter": "^3.6.1",
     "typescript": "^5.2.2"
   },
   "dependencies": {
     "@badeball/cypress-cucumber-preprocessor": "^19.1.1",
     "@bahmutov/cypress-esbuild-preprocessor": "^2.2.0"
-  },
-  "cypress-cucumber-preprocessor": {
-    "stepDefinitions": "cypress/e2e/steps/**/*.{js,ts}"
   }
 }
